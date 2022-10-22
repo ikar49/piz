@@ -1,9 +1,29 @@
 [package]
 name = "piz"
-version = "0.0.0"
+version = "0.0.1"
 description = "A Pi number based archiver and archive file format specification"
 authors = ["Pavel Levchenko <ikar49@pm.me>"]
+
+# Helpful information for new users
+readme = "README.md"
+homepage = "https://github.com/ikar49/piz"
+#documentation = "https://github.com/ikar49/piz/README.md"
+repository = "https://github.com/ikar49/piz"
+license = "WTFPL"
+#license-file = "LICENSE"
+
+# Information for registry (crates.io)
 publish = false
+keywords = ["archive", "compress", "pi"]
+categories = ["command-line-utilities"]
+#exclude = [""]
+#include = [""]
+
+# Build information
 edition = "2021"
+#rust-version = "1.56"
+#build = "build.rs"
+#links = ""
+#default-run = "piz"
 
 [dependencies]
