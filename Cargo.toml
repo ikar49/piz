@@ -1,0 +1,9 @@
+[package]
+name = "piz"
+version = "0.0.0"
+description = "A Pi number based archiver and archive file format specification"
+authors = ["Pavel Levchenko <ikar49@pm.me>"]
+publish = false
+edition = "2021"
+
+[dependencies]
